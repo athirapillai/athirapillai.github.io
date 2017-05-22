@@ -1,0 +1,321 @@
+@charset "UTF-8";
+ @keyframes fadeIn {
+ 0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+.introSection h1 {
+	color: white;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 7em;
+	line-height: 1em;
+	text-align: center;
+	word-spacing: 20px;
+	opacity: 0;
+	animation: fadeIn 5s ease-in-out 1s forwards;
+}
+.introSection h3 {
+	color: darkgray;
+	font-family: rouge-script;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: 3.75em;
+	line-height: 1em;
+}
+.introSection h2 {
+	color: white;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-variant: normal;
+	font-size: 2.75em;
+	text-align: center;
+	top: 0%;
+	padding-top: 2em;
+}
+.introSection h2:after, .introSection h2:before {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: line-through;
+}
+.introSection h4 {
+	color: #C0C3C4;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 3em;
+}
+.aboutSection h1 {
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 250;
+	line-height: 0em;
+}
+.aboutSection h1:after, .aboutSection h1:before {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: line-through;
+}
+.aboutSection p {
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 150;
+	padding-top: 1.7em;
+	padding-right: 1.75em;
+	padding-left: 1.75em;
+	padding-bottom: 1.75em;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+footer {
+	background-image: url(../images/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 8em;
+	float: left;
+}
+.container .row .btn.btn-lg.btn-default {
+	width: auto;
+	background-color: transparent;
+	border-radius: 0px;
+	border: thin solid #B79CB2;
+	color: #B79CB2;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.7em;
+}
+.container .row .btn.btn-lg.btn-default:hover {
+	width: auto;
+	background-color: transparent;
+	border-radius: 0px;
+	border: thin solid #FFFFFF;
+	color: #F9F9F9;
+}
+.divider {
+	width: 200px;
+	height: auto;
+	display: inline-block;
+}
+.portfolioSection h1 {
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 250;
+	line-height: 0em;
+	padding-bottom: 1.2em;
+}
+.portfolioSection h1:after, .portfolioSection h1:before {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: line-through;
+}
+.no-image {
+	padding-top: 300px;
+}
+.align {
+	padding-top: 25px;
+}
+.third-btn {
+	margin-top: 25px;
+}
+.dark-text {
+	color: #000;
+}
+.gallery-title {
+	font-size: 36px;
+	color: #42B32F;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+.gallery-title:after {
+	content: "";
+	position: absolute;
+	width: 7.5%;
+	left: 46.5%;
+	height: 45px;
+	border-bottom: 1px solid #5e5e5e;
+}
+.filter-button {
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.filter-button:hover {
+	font-size: 18px;
+	border: 1px solid #42B32F;
+	border-radius: 5px;
+	text-align: center;
+	color: #ffffff;
+}
+.btn-default:active .filter-button:active {
+	color: white;
+	border-color: #FFFFFF;
+}
+.port-image {
+	width: 100%;
+}
+.gallery_product {
+	margin-bottom: 30px;
+}
+.carousel-inner .item.active .carousel-caption {
+	position: relative;
+	right: 0%;
+	left: 0%;
+	bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+}
+.carousel-inner .item .carousel-caption {
+	position: relative;
+	right: 0%;
+	left: 0%;
+	bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+}
+.filter-button.active {
+	color: #fff;
+	border-color: #fff;
+}
+.contactSection h1 {
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 250;
+	line-height: 0em;
+}
+.contactSection h1:after, .contactSection h1:before {
+	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+	text-decoration: line-through;
+}
+.contactSection h3 {
+	color: #CEDCDE;
+	font-family: rouge-script;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: 3em;
+	line-height: 1em;
+	padding-top: 1em;
+}
+.container .row form {
+	align-content: center;
+	left: 40%;
+	width: 100%;
+	height: auto;
+	color: #B79CB1;
+	border-color: #B79CB1;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1.5em;
+}
+.inputArea {
+	background-color: transparent;
+	border: thin solid #B79CB1;
+	color: #B79CB1;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	text-align: left;
+	float: left;
+	width: 100%;
+	height: 2em;
+	text-indent: 5px;
+	margin-bottom: 20px;
+}
+.inputMessageArea {
+	background-color: transparent;
+	border: thin solid #B79CB1;
+	color: #B79CB1;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	text-align: left;
+	float: left;
+	width: 100%;
+	height: 7em;
+	text-indent: 5px;
+	margin-bottom: 20px;
+}
+.submitButton {
+	width: 20%;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 0px;
+	border: thin solid #B79CB2;
+	color: #B79CB2;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+.submitButton:hover {
+	background-color: transparent;
+	border: thin solid #FFFFFF;
+	color: #F9F9F9;
+}
+
+@media (max-width: 689px) {
+.introSection h2:after,  .introSection h2:before {
+	display: none;
+}
+.aboutSection h1:after,  .aboutSection h1:before {
+	display: none;
+}
+.portfolioSection h1:after,  .portfolioSection h1:before {
+	display: none;
+}
+.contactSection h1:after,  .contactSection h1:before {
+	display: none;
+}
+.introSection h1 {
+	font-size: 5em;
+	opacity: 1;
+	animation: none;
+}
+.introSection h3 {
+	font-size: 3em;
+	line-height: 1em;
+}
+.introSection h2 {
+	padding-top: 0em;
+}
+.introSection h4 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+.aboutSection p {
+	font-size: 1.3em;
+}
+.portfolioSection .container .row .btn.btn-lg.btn-default {
+	width: 10em;
+	font-size: 1em;
+	display: inline-block
+}
+.portfolioSection .container .row .btn.btn-lg.btn-default:hover {
+	width: 10em;
+	font-size: 1em;
+	display:inline-block;
+}
+}
