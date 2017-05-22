@@ -7,6 +7,16 @@
  opacity: 1;
 }
 }
+
+
+
+@font-face {
+    font-family: "rouge-script";
+    src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
+}
+
+
+
 .introSection h1 {
 	color: white;
 	font-family: roboto;
