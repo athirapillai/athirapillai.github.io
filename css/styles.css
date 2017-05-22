@@ -15,6 +15,10 @@
     src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
 }
 
+@font-face {
+	font-family: "roboto";
+	src: url(/assets/Roboto/Roboto-Light.ttf);
+}
 
 
 .introSection h1 {
