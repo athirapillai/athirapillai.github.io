@@ -7,20 +7,14 @@
  opacity: 1;
 }
 }
-
-
-
 @font-face {
-    font-family: "rouge-script";
-    src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
+	font-family: "rouge-script";
+	src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
 }
-
 @font-face {
 	font-family: "roboto";
 	src: url(/assets/Roboto/Roboto-Light.ttf);
 }
-
-
 .introSection h1 {
 	color: white;
 	font-family: roboto;
@@ -289,7 +283,6 @@ footer {
 	border: thin solid #FFFFFF;
 	color: #F9F9F9;
 }
-
 .thanks h1 {
 	color: #FFFFFF;
 	font-family: rouge-script;
@@ -299,7 +292,6 @@ footer {
 	text-align: center;
 	line-height: 1em;
 }
-
 .thanks h2 {
 	color: #FFFFFF;
 	font-family: roboto;
@@ -309,16 +301,16 @@ footer {
 }
 
 @media (max-width: 689px) {
-.introSection h2:after,  .introSection h2:before {
+.introSection h2:after, .introSection h2:before {
 	display: none;
 }
-.aboutSection h1:after,  .aboutSection h1:before {
+.aboutSection h1:after, .aboutSection h1:before {
 	display: none;
 }
-.portfolioSection h1:after,  .portfolioSection h1:before {
+.portfolioSection h1:after, .portfolioSection h1:before {
 	display: none;
 }
-.contactSection h1:after,  .contactSection h1:before {
+.contactSection h1:after, .contactSection h1:before {
 	display: none;
 }
 .introSection h1 {
@@ -348,11 +340,11 @@ footer {
 .portfolioSection .container .row .btn.btn-lg.btn-default:hover {
 	width: 10em;
 	font-size: 1em;
-	display:inline-block;
+	display: inline-block;
 }
-	
-	.submitButton {
-		width: 100px;
-		height: 40px;
-	}
+.submitButton {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+}
 }
