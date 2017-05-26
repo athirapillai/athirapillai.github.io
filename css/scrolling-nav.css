@@ -11,6 +11,7 @@ body {
 html {
 	width: 100%;
 	height: 100%;
+	background-color: #3A2235;
 }
 
 @media(min-width:767px) {
@@ -71,6 +72,16 @@ of those sections to manage the look and feel of the site. */
 	box-shadow: 50px 30px 50px 15px #000000;
 }
 
+.thanks {
+	height: 100%;
+	width: 100%;
+	background-color: #3A2235;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 200;
+	padding: 4em;
+	text-align: center;
+	}
 @media (max-width: 689px) {
 .introSection {
 	height: 50em;
@@ -84,4 +95,5 @@ of those sections to manage the look and feel of the site. */
 .contactSection {
 	height: 45em;
 }
+	
 }

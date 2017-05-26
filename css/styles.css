@@ -290,6 +290,24 @@ footer {
 	color: #F9F9F9;
 }
 
+.thanks h1 {
+	color: #FFFFFF;
+	font-family: rouge-script;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 7em;
+	text-align: center;
+	line-height: 1em;
+}
+
+.thanks h2 {
+	color: #FFFFFF;
+	font-family: roboto;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 2em;
+}
+
 @media (max-width: 689px) {
 .introSection h2:after,  .introSection h2:before {
 	display: none;
@@ -332,4 +350,9 @@ footer {
 	font-size: 1em;
 	display:inline-block;
 }
+	
+	.submitButton {
+		width: 100px;
+		height: 40px;
+	}
 }
