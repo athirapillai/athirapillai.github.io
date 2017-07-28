@@ -51,7 +51,7 @@ of those sections to manage the look and feel of the site. */
 .introSection {
 	padding-top:5em;
 	width: 100%;
-	height: 73em;
+	height: 75em;
 	text-align: center;
 	background-image: url(../images/LandingPage.png);
 	background-size:cover;
@@ -68,7 +68,7 @@ of those sections to manage the look and feel of the site. */
 	background-size: cover;
 	background-repeat: no-repeat;
 	float: left;
-	height: 72em;
+	height: 74em;
 }
 .skillsSection {
 	width: 100%;
@@ -100,7 +100,7 @@ of those sections to manage the look and feel of the site. */
 	background-repeat:no-repeat;
 	background-attachment: scroll;
 	float: left;
-	height: 118em;
+	height: 120em;
 	width: 100%;
 
 }
