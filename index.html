@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<body background bgcolor="#262626">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,13 @@
 
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom CSS -->
 <link href="css/scrolling-nav.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="/css/scrolling-nav.css" rel="stylesheet">
+<link href="/css/styles.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,6 +51,7 @@
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden"> <a class="page-scroll" href="#page-top"></a> </li>
         <li> <a class="page-scroll" href="#about">ABOUT</a> </li>
+		  <li> <a class="page-scroll" href="#skills">SKILLS</a></li>
         <li> <a class="page-scroll" href="#portfolio">PORTFOLIO</a> </li>
         <li> <a class="page-scroll" href="#contact">CONTACT</a> </li>
       </ul>
@@ -68,26 +73,44 @@
         <h4>UI / UX / WEB / GRAPHIC DESIGN</h4>
         <br>
         <br>
-        <a class="btn btn-default page-scroll" href="#about"><img src="images/scrolldown.png" width="40" height="30" alt=""/></a> </div>
-	  </div></div>
-</section>
+        <br>
+        <br>
+		  <a class="btn btn-default page-scroll" href="#about"><img src="images/scrolldown.png" width="120" height="70" alt=""/></a> </div>
+	  </div>
+	  </div>
+	</section>
 
 <!-- About Section -->
 <section id="about" class="aboutSection">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>&nbsp;ABOUT ME&nbsp;</h1>
+      
+		  <h1>ABOUT ME</h1>
         <p>Hi! My name is Athira, and I’m a student at the Pennsylvania State University, graduating in 2018. 
           I’m double majoring in Information Science &amp; Technology and Security &amp; Risk Analysis. 
           I have strong experience in UI, UX, web, application, and graphic design. <br>
-          Examples of my work can be found in the portfolio below.<br>
-          Download my resumé below, and please feel free to contact me. </p>
+          <br>Examples of my work can be found in the portfolio below.<br>
+          <br>Download my resumé below, and please feel free to contact me. </p>
       </div>
     </div>
     <div class="row"> <a href="files/Resume.pdf" download>
       <button type="button" class="btn btn-lg btn-default">RESUME.PDF</button>
       </a></div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skillsSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+       
+        <h1>MY SKILLS</h1>
+        
+      </div>
+    </div>
+    
   </div>
 </section>
 
@@ -102,10 +125,10 @@
     <div class="container">
       <div class="row">
         <div align="center">
-          <button id="appdesignbutton" class="btn btn-lg btn-default filter-button active" data-filter="appdesign" style="margin-right:5%">APP DESIGN</button>
-          <button id="webdesignbutton" class="btn btn-lg btn-default filter-button" data-filter="webdesign" style="margin-right:5%">WEBSITE DESIGN</button>
-          <button id="addesignbutton" class="btn btn-lg btn-default filter-button" data-filter="addesign" style="margin-right:5%">AD DESIGN</button>
-          <button id="miscbutton" class="btn btn-lg btn-default filter-button" data-filter="misc" style="margin-right:5%">MISCELLANEOUS</button>
+          <button id="appdesignbutton" class="filter-button" data-filter="appdesign" style="margin-right:2%">APP DESIGN</button>
+          <button id="webdesignbutton" class="filter-button" data-filter="webdesign" style="margin-right:2%">WEB DESIGN</button>
+          <button id="addesignbutton" class="filter-button" data-filter="addesign" style="margin-right:2%">AD DESIGN</button>
+          <button id="miscbutton" class="filter-button" data-filter="misc" style="margin-right:2%">MISC</button>
         </div>
       </div>
       <br/>
@@ -285,8 +308,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-		  <h1>&nbsp;CONTACT ME&nbsp;</h1>
+		  <h1>CONTACT ME</h1>
 		  <h3>Let's talk!</h3>
+		  <h4>Send me a message below, and I'll get back to you.</h4>
       
       <center><form action="https://formspree.io/athirapillai1996@gmail.com" id="form1" name="form1" method="post">
 	  <input type="text" class="inputArea" name="name" placeholder="NAME" required><br><br>
@@ -296,16 +320,17 @@
       <input type="hidden" name="_next" value="/thanks.html" />
 	  &nbsp;
 		  </form></center></div>
-     
-     
-     
+    
       
       
     </div>
   </div>
 </section>
-<footer> </footer>
 
+<!-- Footer -->
+<div class="footer">
+
+	 </div>
 <!-- jQuery --> 
 <!-- <script src="js/jquery.js"></script> --> 
 <script src="js/jquery-1.11.3.min.js"></script> 

@@ -19,6 +19,11 @@ $(function() {
 });
 
 
+//animation
+$(document).ready(function(){
+    $(".fade-right").animate({left:200, opacity:"show"}, 1500);
+});
+
 
 //gallery
 $(document).ready(function(){

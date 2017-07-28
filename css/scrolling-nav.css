@@ -11,7 +11,7 @@ body {
 html {
 	width: 100%;
 	height: 100%;
-	background-color: #3A2235;
+	background-color: #262626;
 }
 
 @media(min-width:767px) {
@@ -29,47 +29,80 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.introSection {
+
+         
+     
+      
+
+
+/*.introSection {
 	padding-top: 150px;
 	width: 100%;
-	height: 53em;
-	background-image: url(../images/introbg.png);
-	background-size: cover;
+	height: 59em;
+	background-size:cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	float: left;
 	text-align: center;
+	background-image: url("/images/bgSCROLL.png");
+    
+}*/
+
+.introSection {
+	padding-top:3em;
+	width: 100%;
+	height: 65em;
+	text-align: center;
+	background-image: url(../images/LandingPage.png);
+	background-size:cover;
+	background-attachment: scroll;
+
 }
+
+
 .aboutSection {
 	width: 100%;
-	padding-top: 55px;
+	padding-top: 5em;
 	text-align: center;
-	background-color: #3A2235;
+	background-image: url(../images/FINALaboutbg.png);	
+	background-size: cover;
+	background-repeat: no-repeat;
 	float: left;
-	height: 30em;
-	-webkit-box-shadow: 50px 30px 50px 15px #000000;
-	box-shadow: 50px 30px 50px 15px #000000;
+	height: 63em;
+}
+.skillsSection {
+	width: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background-image: url(../images/myskillsbg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	height: 100em;
 }
 .portfolioSection {
 	width: 100%;
-	padding-top: 55px;
-	height: 65em;
-	background-image: url(../images/introbg.png);
+	padding-top: 0em;
+	height: 130em;
+	background-image: url(../images/portfoliobg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	float: left;
 	text-align: center;
+	
 }
 .contactSection {
-	width: 100%;
-	padding-top: 55px;
+	
 	text-align: center;
-	background-color: #3A2235;
+	background-image:url(../images/contactbg.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
 	float: left;
-	height: 50em;
-	-webkit-box-shadow: 50px 30px 50px 15px #000000;
-	box-shadow: 50px 30px 50px 15px #000000;
+	height: 105em;
+	width: 100%;
+
 }
 
 .thanks {
@@ -88,6 +121,9 @@ of those sections to manage the look and feel of the site. */
 }
 .aboutSection {
 	height: 43em;
+}
+.skillsSection {
+	height:50em;
 }
 .portfolioSection {
 	height: 70em;

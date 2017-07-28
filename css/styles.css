@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("../webfonts/Gotham_Bold_Regular/stylesheet.css");
+@import url("../webfonts/GothamBook/stylesheet.css");
  @keyframes fadeIn {
  0% {
  opacity: 0;
@@ -12,48 +14,53 @@
 	src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
 }
 @font-face {
-	font-family: "roboto";
-	src: url(/assets/Roboto/Roboto-Light.ttf);
+	font-family: "Gotham";
+	/* [disabled]src: url(/assets/Roboto/Roboto-Light.ttf); */
 }
+
+
 .introSection h1 {
-	color: white;
-	font-family: roboto;
+	color: #A08BAA;
+	font-family: "Gotham Bold Regular";
 	font-style: normal;
 	font-weight: 300;
-	font-size: 7em;
+	font-size: 9em;
 	line-height: 1em;
 	text-align: center;
 	word-spacing: 20px;
 	opacity: 0;
 	animation: fadeIn 5s ease-in-out 1s forwards;
 }
+
+
 .introSection h3 {
-	color: darkgray;
+	color: #CECDCE;
 	font-family: rouge-script;
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	font-size: 3.75em;
-	line-height: 1em;
+	font-size: 4em;
+	line-height: 0.5em;
 }
 .introSection h2 {
-	color: white;
-	font-family: roboto;
+	color: #fff;
+	font-family: GothamBook;
+	padding-top: 3em;
 	font-style: normal;
 	font-weight: 200;
 	font-variant: normal;
-	font-size: 2.75em;
+	font-size: 3em;
 	text-align: center;
-	top: 0%;
-	padding-top: 2em;
+	
 }
+
 .introSection h2:after, .introSection h2:before {
 	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
 	text-decoration: line-through;
 }
 .introSection h4 {
-	color: #C0C3C4;
-	font-family: roboto;
+	color: #95989A;
+	font-family: GothamBook;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 2em;
@@ -61,54 +68,70 @@
 }
 .aboutSection h1 {
 	color: #FFFFFF;
-	font-family: roboto;
+	font-family: "Gotham Bold Regular";
 	font-style: normal;
+	font-size: 4em;
 	font-weight: 250;
 	line-height: 0em;
+	padding-top: 1em;
+	
 }
 .aboutSection h1:after, .aboutSection h1:before {
-	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-	text-decoration: line-through;
+	
 }
 .aboutSection p {
-	color: #FFFFFF;
-	font-family: roboto;
+	color: #fff;
+	font-family: GothamBook;
 	font-style: normal;
-	font-weight: 150;
-	padding-top: 1.7em;
-	padding-right: 1.75em;
-	padding-left: 1.75em;
-	padding-bottom: 1.75em;
-	text-align: center;
-	font-size: 1.5em;
-	line-height: 1.5em;
+	font-weight: 200;
+	padding-top: 7em;
+	padding-right: 0em;
+	padding-left: 7em;
+	padding-bottom: 3.5em;
+	text-align: right;
+	font-size: 1.75em;
+	line-height: 1.2em;
 }
-footer {
+
+.skillsSection h1 {
+	color: #FFFFFF;
+	padding-top: 0em;
+	font-family: "Gotham Bold Regular";
+	font-style: normal;
+	font-size: 4em;
+	font-weight: 250;
+	line-height: 0em;
+	text-align: center;
+}
+
+
+.footer {
 	background-image: url(../images/footer.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	width: 100%;
-	height: 8em;
+	height: 40em;
 	float: left;
 }
 .container .row .btn.btn-lg.btn-default {
-	width: auto;
+	width: 15em;
 	background-color: transparent;
+	border: medium solid #fff;
+	color: #fff;
 	border-radius: 0px;
-	border: thin solid #B79CB2;
-	color: #B79CB2;
-	font-family: roboto;
+	font-family: "Gotham Bold Regular";
 	font-style: normal;
-	font-weight: 300;
-	font-size: 1.7em;
+	font-weight: 400;
+	font-size: 2em;
 }
 .container .row .btn.btn-lg.btn-default:hover {
-	width: auto;
+	width: 15em;
 	background-color: transparent;
 	border-radius: 0px;
-	border: thin solid #FFFFFF;
-	color: #F9F9F9;
+	border: medium solid #A08BAA;
+	color: #A08BAA;
+	
 }
 .divider {
 	width: 200px;
@@ -116,17 +139,16 @@ footer {
 	display: inline-block;
 }
 .portfolioSection h1 {
-	color: #FFFFFF;
-	font-family: roboto;
+	color: #392C3F;
+	font-family: "Gotham Bold Regular";
 	font-style: normal;
 	font-weight: 250;
 	line-height: 0em;
-	padding-bottom: 1.2em;
+	font-size: 4em;
+	padding-top: 5em;
+	padding-bottom: 1.5em;
 }
-.portfolioSection h1:after, .portfolioSection h1:before {
-	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-	text-decoration: line-through;
-}
+
 .no-image {
 	padding-top: 300px;
 }
@@ -155,21 +177,36 @@ footer {
 	border-bottom: 1px solid #5e5e5e;
 }
 .filter-button {
-	font-size: 18px;
+	/*font-size: 18px;
 	border-radius: 5px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 30px;*/
+	width: 8em;
+	background-color: transparent;
+	border: medium solid #392C3F;
+	color: #392C3F;
+	border-radius: 0px;
+	font-family: "Gotham Bold Regular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom:3em;
 }
 .filter-button:hover {
-	font-size: 18px;
-	border: 1px solid #42B32F;
-	border-radius: 5px;
-	text-align: center;
-	color: #ffffff;
+	width: 8em;
+	background-color: transparent;
+	border: medium solid #A08BAA;
+	color: #A08BAA;
+	border-radius: 0px;
+	font-family: "Gotham Bold Regular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 3em;
 }
 .btn-default:active .filter-button:active {
-	color: white;
-	border-color: #FFFFFF;
+	color: #392C3F;
+	border-color: #392C3F;
 }
 .port-image {
 	width: 100%;
@@ -185,8 +222,8 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	color: #FFFFFF;
-	font-family: roboto;
+	color: #000;
+	font-family: GothamBook;
 	font-style: normal;
 }
 .carousel-inner .item .carousel-caption {
@@ -197,51 +234,84 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	color: #FFFFFF;
-	font-family: roboto;
+	color: #000;
+	font-family: GothamBook;
 	font-style: normal;
 }
 .filter-button.active {
-	color: #fff;
-	border-color: #fff;
+	color: #392C3F;
+	border-color: #392C3F;
 }
 .contactSection h1 {
 	color: #FFFFFF;
-	font-family: roboto;
+	font-family: "Gotham Bold Regular";
 	font-style: normal;
 	font-weight: 250;
-	line-height: 0em;
+	line-height: 2em;
+	font-size: 4em;
+	padding-top: 3.5em;
 }
-.contactSection h1:after, .contactSection h1:before {
+/*.contactSection h1:after, .contactSection h1:before {
 	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
 	text-decoration: line-through;
-}
+}*/
 .contactSection h3 {
-	color: #CEDCDE;
-	font-family: rouge-script;
+	color: #fff;
+	font-family: "rouge-script";
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	font-size: 3em;
+	font-size: 4em;
 	line-height: 1em;
+}
+
+.contactSection h4 {
+	color: #fff;
+	font-family:"GothamBook";
+	font-style:normal;
+	font-weight:400;
+	text-align:center;
+	font-size: 2em;
+	line-height:1em;
 	padding-top: 1em;
+	padding-bottom:2em;
 }
 .container .row form {
 	align-content: center;
 	left: 40%;
 	width: 100%;
 	height: auto;
-	color: #B79CB1;
-	border-color: #B79CB1;
-	font-family: roboto;
-	font-style: normal;
+	color: #fff;
+	border-color: #fff;
+	font-family: GothamBook;
+	font-style:normal;
 	font-weight: 200;
 	font-size: 1.5em;
+	
 }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #A08BAA;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #A08BAA;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #A08BAA;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #A08BAA;
+}
+
+
 .inputArea {
 	background-color: transparent;
-	border: thin solid #B79CB1;
-	color: #B79CB1;
+	border: thin solid #fff;
+	color: #fff;
 	font-family: roboto;
 	font-style: normal;
 	font-weight: 300;
@@ -251,11 +321,13 @@ footer {
 	height: 2em;
 	text-indent: 5px;
 	margin-bottom: 20px;
+	align-content: center;
+	
 }
 .inputMessageArea {
 	background-color: transparent;
-	border: thin solid #B79CB1;
-	color: #B79CB1;
+	border: thin solid #fff;
+	color: #fff;
 	font-family: roboto;
 	font-style: normal;
 	font-weight: 300;
@@ -264,24 +336,31 @@ footer {
 	width: 100%;
 	height: 7em;
 	text-indent: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 2em;
+	align-content: center;
+	padding-top: 0.5em;
+	
 }
 .submitButton {
 	width: 20%;
-	height: 40px;
+	height: 2em;
 	background-color: transparent;
 	border-radius: 0px;
-	border: thin solid #B79CB2;
-	color: #B79CB2;
-	font-family: roboto;
+	border: thin solid #fff;
+	color: #fff;
+	font-family: GothamBook;
+	text-align:center;
+	align-self: right;
+	
 	font-style: normal;
+	padding-top:0.5em;
 	font-weight: 300;
 	font-size: 1.2em;
 }
 .submitButton:hover {
 	background-color: transparent;
-	border: thin solid #FFFFFF;
-	color: #F9F9F9;
+	border: thin solid #A08BAA;
+	color: #A08BAA;
 }
 .thanks h1 {
 	color: #FFFFFF;
@@ -294,7 +373,7 @@ footer {
 }
 .thanks h2 {
 	color: #FFFFFF;
-	font-family: roboto;
+	font-family: GothamBook;
 	font-style: normal;
 	font-weight: 200;
 	line-height: 2em;
