@@ -251,10 +251,7 @@
 	font-size: 4em;
 	padding-top: 3.5em;
 }
-/*.contactSection h1:after, .contactSection h1:before {
-	content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-	text-decoration: line-through;
-}*/
+
 .contactSection h3 {
 	color: #fff;
 	font-family: "rouge-script";
