@@ -79,11 +79,12 @@ of those sections to manage the look and feel of the site. */
 	background-repeat: no-repeat;
 	float: left;
 	height: 120em;
+	
 }
 .portfolioSection {
 	width: 100%;
 	padding-top: 0em;
-	height: 135em;
+	height: 145em;
 	background-image: url(../images/portfoliobg.png);
 	background-size: cover;
 	background-repeat: no-repeat;

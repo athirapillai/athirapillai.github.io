@@ -139,14 +139,14 @@
 	display: inline-block;
 }
 .portfolioSection h1 {
-	color: #392C3F;
+	color: #fff;
 	font-family: "Gotham Bold Regular";
 	font-style: normal;
 	font-weight: 250;
 	line-height: 0em;
 	font-size: 4em;
-	padding-top: 5em;
-	padding-bottom: 1.5em;
+	padding-top: 3.5em;
+	padding-bottom: 2em;
 }
 
 .no-image {
@@ -183,13 +183,13 @@
 	margin-bottom: 30px;*/
 	width: 8em;
 	background-color: transparent;
-	border: medium solid #392C3F;
-	color: #392C3F;
+	border: medium solid #fff;
+	color: #fff;
 	border-radius: 0px;
 	font-family: "Gotham Bold Regular";
 	font-style: normal;
-	font-weight: 400;
-	font-size: 2em;
+	font-weight: 200;
+	font-size: 1.5em;
 	margin-bottom:3em;
 }
 .filter-button:hover {
@@ -200,13 +200,13 @@
 	border-radius: 0px;
 	font-family: "Gotham Bold Regular";
 	font-style: normal;
-	font-weight: 400;
-	font-size: 2em;
+	font-weight: 200;
+	font-size: 1.5em;
 	margin-bottom: 3em;
 }
 .btn-default:active .filter-button:active {
-	color: #392C3F;
-	border-color: #392C3F;
+	color: #fff;
+	border-color: #fff;
 }
 .port-image {
 	width: 100%;
@@ -222,7 +222,7 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	color: #000;
+	color: #fff;
 	font-family: GothamBook;
 	font-style: normal;
 }
@@ -234,13 +234,13 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	color: #000;
+	color: #fff;
 	font-family: GothamBook;
 	font-style: normal;
 }
 .filter-button.active {
-	color: #392C3F;
-	border-color: #392C3F;
+	color: #fff;
+	border-color: #fff;
 }
 .contactSection h1 {
 	color: #FFFFFF;
@@ -290,18 +290,22 @@
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #A08BAA;
+	font-family:roboto;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #A08BAA;
+	font-family:roboto;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   color: #A08BAA;
+	font-family:roboto;
 }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #A08BAA;
+	font-family:roboto;
 }
 
 
