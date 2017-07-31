@@ -3909,7 +3909,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	
 }
 .navbar-default .navbar-text {
-	color: #A08BAA;
+	color: #fff;
 	font-family: GothamBook;
 }
 .navbar-default .navbar-nav>li>a {
@@ -3917,7 +3917,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	font-family: GothamBook;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #A08BAA;
+	color: #fff;
 	background-color: transparent;
 	
 }
