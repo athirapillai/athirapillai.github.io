@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @import url("../webfonts/Gotham_Bold_Regular/stylesheet.css");
 @import url("../webfonts/GothamBook/stylesheet.css");
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
  @keyframes fadeIn {
  0% {
  opacity: 0;
@@ -9,18 +12,18 @@
  opacity: 1;
 }
 }
-@font-face {
-	font-family: "rouge-script";
-	src: url(/assets/Rouge_Script/RougeScript-Regular.ttf);
-}
+
+
 @font-face {
 	font-family: "Gotham";
 	/* [disabled]src: url(/assets/Roboto/Roboto-Light.ttf); */
 }
 
 
+
+
 .introSection h1 {
-	color: #A08BAA;
+	color: #8BC7C5;
 	font-family: "Gotham Bold Regular";
 	font-style: normal;
 	font-weight: 300;
@@ -35,7 +38,7 @@
 
 .introSection h3 {
 	color: #CECDCE;
-	font-family: rouge-script;
+	font-family: 'Rouge Script', cursive;
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
@@ -84,9 +87,9 @@
 	font-family: GothamBook;
 	font-style: normal;
 	font-weight: 200;
-	padding-top: 7em;
+	padding-top: 8em;
 	padding-right: 0em;
-	padding-left: 7em;
+	padding-left: 9em;
 	padding-bottom: 3.5em;
 	text-align: right;
 	font-size: 1.75em;
@@ -101,6 +104,7 @@
 	font-size: 4em;
 	font-weight: 250;
 	line-height: 0em;
+	padding-bottom: 0em;
 	text-align: center;
 }
 
@@ -111,7 +115,7 @@
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	width: 100%;
-	height: 50em;
+	height: 84em;
 	float: left;
 }
 .container .row .btn.btn-lg.btn-default {
@@ -129,8 +133,8 @@
 	width: 15em;
 	background-color: transparent;
 	border-radius: 0px;
-	border: medium solid #A08BAA;
-	color: #A08BAA;
+	border: medium solid #8BC7C5;
+	color: #8BC7C5;
 	
 }
 .divider {
@@ -149,99 +153,7 @@
 	padding-bottom: 2em;
 }
 
-.no-image {
-	padding-top: 300px;
-}
-.align {
-	padding-top: 25px;
-}
-.third-btn {
-	margin-top: 25px;
-}
-.dark-text {
-	color: #000;
-}
-.gallery-title {
-	font-size: 36px;
-	color: #42B32F;
-	text-align: center;
-	font-weight: 500;
-	margin-bottom: 70px;
-}
-.gallery-title:after {
-	content: "";
-	position: absolute;
-	width: 7.5%;
-	left: 46.5%;
-	height: 45px;
-	border-bottom: 1px solid #5e5e5e;
-}
-.filter-button {
-	/*font-size: 18px;
-	border-radius: 5px;
-	text-align: center;
-	margin-bottom: 30px;*/
-	width: 8em;
-	background-color: transparent;
-	border: medium solid #fff;
-	color: #fff;
-	border-radius: 0px;
-	font-family: "Gotham Bold Regular";
-	font-style: normal;
-	font-weight: 200;
-	font-size: 1.5em;
-	margin-bottom:3em;
-}
-.filter-button:hover {
-	width: 8em;
-	background-color: transparent;
-	border: medium solid #A08BAA;
-	color: #A08BAA;
-	border-radius: 0px;
-	font-family: "Gotham Bold Regular";
-	font-style: normal;
-	font-weight: 200;
-	font-size: 1.5em;
-	margin-bottom: 3em;
-}
-.btn-default:active .filter-button:active {
-	color: #fff;
-	border-color: #fff;
-}
-.port-image {
-	width: 100%;
-}
-.gallery_product {
-	margin-bottom: 30px;
-}
-.carousel-inner .item.active .carousel-caption {
-	position: relative;
-	right: 0%;
-	left: 0%;
-	bottom: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	color: #fff;
-	font-family: GothamBook;
-	font-style: normal;
-}
-.carousel-inner .item .carousel-caption {
-	position: relative;
-	right: 0%;
-	left: 0%;
-	bottom: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	color: #fff;
-	font-family: GothamBook;
-	font-style: normal;
-}
-.filter-button.active {
-	color: #fff;
-	border-color: #fff;
-}
+
 .contactSection h1 {
 	color: #FFFFFF;
 	font-family: "Gotham Bold Regular";
@@ -249,18 +161,9 @@
 	font-weight: 250;
 	line-height: 2em;
 	font-size: 4em;
-	padding-top: 3.5em;
+	padding-top: 2em;
 }
 
-.contactSection h3 {
-	color: #fff;
-	font-family: "rouge-script";
-	font-style: normal;
-	font-weight: 400;
-	text-align: center;
-	font-size: 4em;
-	line-height: 1em;
-}
 
 .contactSection h4 {
 	color: #fff;
@@ -270,8 +173,8 @@
 	text-align:center;
 	font-size: 2em;
 	line-height:1em;
-	padding-top: 1em;
-	padding-bottom:2em;
+	padding-top: 0em;
+	padding-bottom:0em;
 }
 .container .row form {
 	align-content: center;
@@ -289,23 +192,23 @@
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #A08BAA;
-	font-family:roboto;
+  color: #8BC7C5;
+	font-family: 'Roboto', sans-serif;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #A08BAA;
-	font-family:roboto;
+  color: #8BC7C5;
+	font-family: 'Roboto', sans-serif;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #A08BAA;
-	font-family:roboto;
+  color: #8BC7C5;
+	font-family: 'Roboto', sans-serif;
 }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #A08BAA;
-	font-family:roboto;
+  color: #8BC7C5;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -313,7 +216,7 @@ textarea:-ms-input-placeholder {
 	background-color: transparent;
 	border: thin solid #fff;
 	color: #fff;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	text-align: left;
@@ -329,7 +232,7 @@ textarea:-ms-input-placeholder {
 	background-color: transparent;
 	border: thin solid #fff;
 	color: #fff;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	text-align: left;
@@ -360,12 +263,12 @@ textarea:-ms-input-placeholder {
 }
 .submitButton:hover {
 	background-color: transparent;
-	border: thin solid #A08BAA;
-	color: #A08BAA;
+	border: thin solid #8BC7C5;
+	color: #8BC7C5;
 }
 .thanks h1 {
 	color: #FFFFFF;
-	font-family: rouge-script;
+	font-family: 'Rouge Script', cursive;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 7em;
@@ -379,6 +282,277 @@ textarea:-ms-input-placeholder {
 	font-weight: 200;
 	line-height: 2em;
 }
+
+
+
+/* Portfolio
+===========================================*/
+.content-area{ 
+  align-content: center;
+}
+.portfolio-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.portfolio-item h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 1px;
+	text-align: left;
+  color: #ffffff;
+	font-family: "Gotham Bold Regular";
+}
+.portfolio-item span{
+  text-transform: uppercase;
+	text-align: left;
+  font-size: 1em;
+	font-family: GothamBook;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.hover-bg {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hover-txt {
+  padding: 30px 30px 40px 30px;
+	text-align: left;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translateY(-100px);
+      -moz-transform: translateY(-100px);
+        -ms-transform: translateY(-100px);
+          -o-transform: translateY(-100px);
+            transform: translateY(-100px);
+}
+
+.portfolio-item:hover .hover-bg{
+  opacity: 1;
+}
+.portfolio-item:hover .hover-bg .hover-txt{
+  -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+          -o-transform: translateY(0);
+            transform: translateY(0);
+}
+
+
+.pp_pic_holder {
+    height: 100%;
+    background: #ffffff;
+}
+.pp_pic_holder img{ border: 1px solid #000000;}
+.pp_inline p{letter-spacing: 1px;}
+.pp_inline h4{
+  font-family: GothamBook;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+.pp_top, .pp_bottom{ height: 0}
+.pp_pic_holder.light_rounded {
+  width: auto !important;
+}
+.pp_content_container .pp_left {
+  padding-left: 0;
+}
+.pp_content_container .pp_right {
+  padding-right: 0;
+}
+.pp_inline h4, 
+.pp_inline p {
+  padding: 0 40px;
+}
+.prettyphoto-controls{ margin-top: -2px;}
+.prettyphoto-controls span{
+  background-color: #000000;
+  -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.prettyphoto-controls span:hover{
+  background-color: #363636; 
+  cursor: pointer;
+}
+span.p-next,
+span.p-prev {
+  font-size: 18px;
+  display: inline-block;
+  color: #ffffff;
+  width: 33.33333%;
+  padding: 20px 0;
+  height: 55px;
+  text-align: center;
+}
+span.p-close {
+  display: inline-block;
+  color: #ffffff;
+  width: 33.335%;
+  padding: 23px 0;
+  text-align: center;
+  margin: 0 -7px;
+  height: 55px;
+  font-family: GothamBook;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/* Social icons */
+
+
+.icon{
+    text-align:center; margin-top:3em;
+	margin-bottom:3em;
+}
+
+.fa.fa-linkedin, .fa-file-pdf-o, .fa-envelope{
+	border-radius: 50%;
+	background:#8BC7C5;
+}
+.fa-file-pdf-o:hover{
+	background: #D33E1B;
+}
+.fa-linkedin:hover{
+	background: #1B93D3;
+}
+.fa.fa-envelope:hover{
+	background: #1BD385;
+}
+
+
+/* nav for portfolio pages */
+.right-buttons {
+	
+	width: 10em;
+	height: 2em;
+	background-color: transparent;
+	border-radius: 0px;
+	border: thin solid #fff;
+	color: #fff;
+	font-family: GothamBook;
+	text-align:center;
+	align-self: right;
+	font-style: normal;
+	padding-top:0.5em;
+	font-weight: 300;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 2em;
+}
+.right-buttons:hover {
+	background-color: transparent;
+	border: thin solid #8BC7C5;
+	color: #8BC7C5;
+}
+	
+.appSection {
+	background-color: #262626;
+	padding-top:5em;
+	width: 100%;
+	height: 180em;
+	text-align: center;
+	
+}
+
+.appSection h1 {
+color: #FFFFFF;
+	font-family: "Gotham Bold Regular";
+	font-style: normal;
+	font-size: 6em;
+	font-weight: 250;
+	line-height: 0em;
+	padding-top: 2em;
+	text-align: right;
+}
+
+.appSection p {
+	color:#fff;
+	font-family: GothamBook;
+	font-style: normal;
+	font-size: 2em;
+	font-weight: 100;
+	padding-top: 5em;
+	letter-spacing: 1px;
+	
+}
+
+.appSection footer {
+	background-image: url(../images/appdesign/appfooter.png);
+	background-size: cover;
+	width: 100%;
+	height:10em;
+	
+}
+
+.webSection {
+	background-color: #262626;
+	padding-top:5em;
+	width: 100%;
+	height: 180em;
+	text-align: center;
+	
+}
+
+.webSection h1 {
+	color: #FFFFFF;
+	font-family: "Gotham Bold Regular";
+	font-style: normal;
+	font-size: 5em;
+	font-weight: 250;
+	line-height: 0em;
+	padding-top: 2em;
+	text-align: right;
+}
+
+.webSection p {
+	color:#fff;
+	font-family: GothamBook;
+	font-style: normal;
+	font-size: 2em;
+	font-weight: 100;
+	padding-top: 5em;
+	letter-spacing: 1px;
+	
+}
+
+.webSection footer {
+	background-image: url(../images/appdesign/appfooter.png);
+	background-size: cover;
+	width: 100%;
+	height:10em;
+	
+}
+
+ 
+
+
+
 
 @media (max-width: 689px) {
 .introSection h2:after, .introSection h2:before {
