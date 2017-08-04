@@ -19,36 +19,4 @@ $(function() {
 });
 
 
-//animation
-$(document).ready(function(){
-    $(".fade-right").animate({left:200, opacity:"show"}, 1500);
-});
-
-
-//gallery
-$(document).ready(function(){
-
-	$('.filter').not('.appdesign').hide(1);
-			$('.filter').filter('appdesign').show('3000');
-			
-	
-	
-    $(".filter-button").click(function(){
-        var value = $(this).attr('data-filter');
-        $(this).addClass('active');
-        
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        
-    });
-    
-    if ($(".filter-button").removeClass('active')) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
 
