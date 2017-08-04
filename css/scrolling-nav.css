@@ -64,7 +64,7 @@ of those sections to manage the look and feel of the site. */
 .portfolioSection {
 	width: 100%;
 	padding-top: 0em;
-	height: 150em;
+	height: 120em;
 	background-image: url(../images/portfoliobg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -81,7 +81,7 @@ of those sections to manage the look and feel of the site. */
 	background-repeat:no-repeat;
 	background-attachment: scroll;
 	float: left;
-	height: 130em;
+	height: 110em;
 	width: 100%;
 
 }
