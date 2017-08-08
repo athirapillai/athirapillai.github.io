@@ -665,7 +665,31 @@ span.p-close {
 	.footer {
 		height: 40%;
 	}
-
+.appSection h1 {
+		font-size:2.5em;
+	}
+	.appSection p {
+		font-size: 1em;
+	}
+	.appSection footer {
+		height: 7em;
+	}
+	.appSection {
+		height:100em;
+	}
+	
+	.webSection h1 {
+		font-size:2.5em;
+	}
+	.webSection p {
+		font-size: 1em;
+	}
+	.webSection footer {
+		height: 7em;
+	}
+	.webSection {
+		height:100em;
+	}
 }
 
 @media (max-width: 414px) {
@@ -778,6 +802,7 @@ span.p-close {
 }
 	
 	
+	
 }
 
 @media (max-width: 320px) {
@@ -822,9 +847,28 @@ span.p-close {
 		font-size: 1.2em;
 	}
 
+	.thanks h1 {
+	
+	font-size: 4em;
+}
+.thanks h2 {
+	
+	font-size: 1em;
+}
+	.appSection footer {
+		height: 8em;
+	}
+	.appSection {
+		height:90em;
+	}
+	
+.webSection footer {
+		height: 8em;
+	}
+	.webSection {
+		height:90em;
+	}
+	
+}
 
-	
-	
-}
-}
 	
