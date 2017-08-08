@@ -46,20 +46,21 @@ of those sections to manage the look and feel of the site. */
 
 .aboutSection {
 	width: 100%;
-	padding-top: 1em;
+	padding-top: 0em;
 	text-align: center;
 	background-image: url(../images/FINALaboutbg.png);	
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
 	float: left;
 	height: 73em;
 }
 .skillsSection {
 	width: 100%;
-	padding-top: 1em;
+	padding-top: 0em;
 	text-align: center;
 	height: 160em;
-	
+	background-attachment: scroll;
 }
 .portfolioSection {
 	width: 100%;
@@ -100,21 +101,182 @@ of those sections to manage the look and feel of the site. */
 	padding: 4em;
 	text-align: center;
 	}
-@media (max-width: 689px) {
+@media (max-width: 1100px) {
 .introSection {
-	height: 50em;
+	padding-top:3em;
+	text-align: center;
+	background: url(../images/LandingPageresponsive.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+	
 }
+	
+	.page-scroll {
+		display:none;
+	} 
 .aboutSection {
-	height: 43em;
+	
+	width: 100%;
+	padding-top: 5em;
+	text-align: center;
+	background: url(../images/FINALaboutbg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+	background-color:#262626;
+	
 }
 .skillsSection {
-	height:50em;
+	height:110em;
+	
 }
 .portfolioSection {
-	height: 70em;
+	background: url(../images/portfoliobg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:160%;
+	padding-top: 2em;
 }
 .contactSection {
-	height: 45em;
+	background: url(../images/contactbg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:160%;
+	
 }
+	
+}
+
+@media (max-width: 990px) {
+	.skillsSection {
+	height:100em;
+	}
+	
+	.contactSection {
+	background: url(../images/contactbg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:140%;
+    
+	
+}
+	
+}
+
+@media (max-width: 768px) {
+	
+	.introSection {
+    height:55%;
+	
+	}
+	.skillsSection {
+		height:130%;
+	}
+	.aboutSection {
+		height:60%;
+		padding-top: 3em;
+		background-color:#262626;
+	}
+	.portfolioSection {
+		height:100em; 
+	}
+}
+
+@media (max-width: 650px) {
+	.aboutSection {
+		height: 70%;
+		padding-top: 1.5em;
+	}	
+	.skillsSection {
+		height: 140%;
+	}
+	.portfolioSection {
+		padding-bottom: 0em;
+	}
+	.contactSection {
+		padding-top: 0em;
+	}
+	
+}
+@media (max-width: 530px) {
+	.introSection {
+		height: 60%;
+	}
+	.aboutSection {
+		height: 60%;
+		padding-top: 1em;
+	}	
+	.skillsSection {
+		height: 110%;
+	}
+	.portfolioSection {
+		height: 150em;
+	}
+	.contactSection {
+		height: 120%;
+	}
+	
+}
+
+@media (max-width: 414px) {
+	.introSection {
+		height: 50%;
+	}
+	.aboutSection {
+		height: 45%;
+		padding-top: 0em;
+	}	
+	.skillsSection {
+		height: 90%;
+	}
+	.portfolioSection {
+		height: 120em;
+	}
+	.contactSection {
+		height: 110%;
+	}
+	
+}
+
+@media (max-width: 375px) {
+	
+	.skillsSection {
+		height: 80%;
+	}
+	.portfolioSection {
+		height: 110em;
+	}
+	.contactSection {
+		height: 110%;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	
+	.introSection {
+		height: 50%;
+	}
+	.skillsSection {
+		height: 85%;
+	}
+	.portfolioSection {
+		height: 100em;
+	}
+	.contactSection {
+		height: 120%;
+	}
+	
 	
 }
