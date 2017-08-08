@@ -3741,7 +3741,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 @media (min-width:768px) {
 .navbar-toggle {
-	display: none
+	display: none;
 }
 }
 .navbar-nav {
