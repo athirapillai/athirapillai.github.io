@@ -801,7 +801,9 @@ span.p-close {
 	text-align: center;
 }
 	
-	
+	.right-buttons {
+		width: 9em;
+	}
 	
 }
 
@@ -851,6 +853,7 @@ span.p-close {
 	
 	font-size: 4em;
 }
+	
 .thanks h2 {
 	
 	font-size: 1em;
@@ -868,6 +871,7 @@ span.p-close {
 	.webSection {
 		height:90em;
 	}
+	
 	
 }
 

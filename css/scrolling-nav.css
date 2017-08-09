@@ -14,6 +14,10 @@ html {
 	background-color: #262626;
 }
 
+@viewport {  
+   orientation: portrait;  
+ }  
+
 @media(min-width:767px) {
 .navbar {
 	padding: 20px 0;
@@ -55,11 +59,12 @@ of those sections to manage the look and feel of the site. */
 	float: left;
 	height: 73em;
 }
+
 .skillsSection {
+	margin-top: 70em;
 	width: 100%;
-	padding-top: 0em;
+	padding-top: 2em;
 	text-align: center;
-	height: 160em;
 	background-attachment: scroll;
 }
 .portfolioSection {
@@ -130,7 +135,8 @@ of those sections to manage the look and feel of the site. */
 	
 }
 .skillsSection {
-	height:110em;
+	margin-top: 55em;
+	background-color:#262626;
 	
 }
 .portfolioSection {
@@ -156,7 +162,10 @@ of those sections to manage the look and feel of the site. */
 
 @media (max-width: 990px) {
 	.skillsSection {
-	height:100em;
+	
+		background-color:#262626;
+			margin-top: 45em;
+
 	}
 	
 	.contactSection {
@@ -175,32 +184,39 @@ of those sections to manage the look and feel of the site. */
 @media (max-width: 768px) {
 	
 	.introSection {
-    height:55%;
+    height:80%;
 	
 	}
-	.skillsSection {
-		height:130%;
-	}
+	
 	.aboutSection {
-		height:60%;
+		height:90%;
 		padding-top: 3em;
 		background-color:#262626;
 	}
+	
+	.skillsSection {
+			margin-top: 40em;
+
+		background-color:#262626;
+	}
+	
 	.portfolioSection {
-		height:100em; 
+		height:80em; 
 	}
 }
 
 @media (max-width: 650px) {
 	.aboutSection {
-		height: 70%;
+		height: 80%;
 		padding-top: 1.5em;
 	}	
 	.skillsSection {
-		height: 140%;
+		margin-top: 30em;
+		background-color:#262626;
 	}
 	.portfolioSection {
 		padding-bottom: 0em;
+		height: 180em;
 	}
 	.contactSection {
 		padding-top: 0em;
@@ -209,14 +225,15 @@ of those sections to manage the look and feel of the site. */
 }
 @media (max-width: 530px) {
 	.introSection {
-		height: 60%;
+		height: 80%;
 	}
 	.aboutSection {
-		height: 60%;
+		height: 70%;
 		padding-top: 1em;
 	}	
 	.skillsSection {
-		height: 110%;
+		
+		background-color:#262626;
 	}
 	.portfolioSection {
 		height: 150em;
@@ -229,17 +246,20 @@ of those sections to manage the look and feel of the site. */
 
 @media (max-width: 414px) {
 	.introSection {
-		height: 50%;
+		height: 65%;
+		background-color: #262626;
 	}
 	.aboutSection {
-		height: 45%;
-		padding-top: 0em;
+		height: 55%;
+		padding-top: 1em;
+		background-color: #262626;
 	}	
 	.skillsSection {
-		height: 90%;
+		margin-top: 20em;
+		background-color:#262626;
 	}
 	.portfolioSection {
-		height: 120em;
+		height: 110em;
 	}
 	.contactSection {
 		height: 110%;
@@ -250,13 +270,15 @@ of those sections to manage the look and feel of the site. */
 @media (max-width: 375px) {
 	
 	.introSection {
-		height: 60%;
+		height: 10%;
+		padding-bottom: 30em;
 	}
 	.aboutSection {
-		height: 50%;
+		height: 55%;
 	}
 	.skillsSection {
-		height: 80%;
+		
+		background-color:#262626;
 	}
 	.portfolioSection {
 		height: 110em;
@@ -270,13 +292,20 @@ of those sections to manage the look and feel of the site. */
 @media (max-width: 320px) {
 	
 	.introSection {
-		height: 50%;
+		height: 70%;
+		padding-top: 6em;
+		
+
+	}
+	.aboutSection {
+		height: 42%;
 	}
 	.skillsSection {
-		height: 85%;
+		margin-top: 10em;
+		background-color:#262626;
 	}
 	.portfolioSection {
-		height: 100em;
+		height: 90em;
 	}
 	.contactSection {
 		height: 120%;
