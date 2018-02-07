@@ -92,6 +92,7 @@ dark {
 	font-weight: 100;
 }
 #overview,
+#explanation,
 #register,
 #about {
 	padding-top: 5rem;
@@ -100,7 +101,8 @@ dark {
 
 }
 
-#overview {
+#overview,
+#explanation {
 	text-align: center; 
 }
 
@@ -108,7 +110,8 @@ dark {
 	text-align: center;
 }
 
-#overview .button {
+#overview .button,
+#explanation .button {
 	padding: 1.5em;
 	width: 4em;
 	height: 3em;
@@ -131,6 +134,7 @@ dark {
 }
 
 #overview .button:hover,
+#explanation .button:hover,
 #about .button:hover {
   color: #ffffff;
   background: #222;
@@ -156,7 +160,8 @@ footer {
 #detail h3, #video h3,
 #register h3,
 #venue h3,
-#contact h3 {
+#contact h3
+#explanation h3 {
     padding-bottom: 12px;
 }
 
@@ -367,12 +372,14 @@ footer {
    Overview  section              
 -----------------------------------------*/
 #overview img,
-#about img {
+#about img,
+#explanation img {
   position: relative;
   padding-bottom: 32px;
 }
 
-#overview h6 {
+#overview h6, 
+#explanation h6 {
 	text-align: left;
 	padding-left: 6em;
 	padding-right: 6em;
@@ -380,7 +387,8 @@ footer {
 	
 }
 
-#overview h5 {
+#overview h5,
+#explanation h5 {
 	text-align: left;
 	margin-left: 0em;
 	margin-right: 0em;
@@ -818,6 +826,7 @@ footer {
 
   #overview img,
 	#about img,
+	#explanation img,
   #detail .col-md-4,
   #register form {
     padding-top: 32px;
@@ -847,5 +856,45 @@ footer {
     height: 100vh;
   }
 
+}
+
+@media (max-width: 405px) {
+	
+	#intro {
+		height: 90vh;
+	}
+	
+	#intro h1 {
+		font-size: 3em;
+	}
+	#intro h2 {
+		font-size: 2em;
+	}
+	#intro h3 {
+		font-size: 1.5em;
+	}
+	#detail h1 {
+		font-size: 2.3em;
+	}
+	#speakers {
+		padding-top: 3rem;
+	}
+	#faq h2 {
+		font-size: 2em;
+	}
+	#faq h4 {
+		font-size: 1.2em;
+	}
+	#faq p {
+		font-size: 1em;
+	}
+	#explanation h2 {
+		font-size: 1.8em;
+	}
+	#explanation h6 {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	
 }
 
