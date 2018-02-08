@@ -400,6 +400,10 @@ footer {
 	font-size: 1em;
 	color: #272727;
 }
+#explanation p {
+		padding-left: 10em;
+		padding-right: 10em;
+	}
 
 
 
@@ -897,6 +901,10 @@ footer {
 		font-size: 1.8em;
 	}
 	#explanation h6 {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	#explanation p {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
